@@ -7,16 +7,19 @@ import { AppComponent } from './app.component';
 
 // Subscription Components
 import { HomeComponent } from './home/home.component';
+import { LifetimeComponent } from './lifetime/lifetime.component';
 
-// Main IAHSP Routes
+// Subscription Routes
 const SUBSCRIPTION_ROUTES: Routes = [
-  { path: "", component: HomeComponent }
+  { path: "", component: HomeComponent },
+  { path: "lifetime", component: LifetimeComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LifetimeComponent
   ],
   imports: [
     BrowserModule,
