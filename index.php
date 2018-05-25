@@ -77,7 +77,7 @@
         <!-- Angular App Container -->
         <div class="container space-top-40 space-bottom-40">
             <div class="row">
-                <div class="col-md-offset-1 col-md-10">
+                <div class="col-md-12">
                     <!-- IFrame: Angular App -->
                     <div class="embed-responsive embed-responsive-16by9">
                       <iframe class="embed-responsive-item" src="./dist/subscribe/index.html"></iframe>
