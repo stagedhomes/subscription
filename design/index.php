@@ -74,17 +74,34 @@
         </div>
         <!-- banner end -->
 
-        <!-- Angular App Container -->
         <div class="container space-top-40 space-bottom-40">
             <div class="row">
-                <div class="col-md-offset-1 col-md-10">
-                    <!-- IFrame: Angular App -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="./dist/subscribe/index.html"></iframe>
+                <div class="col-md-offset-1 col-md-5">
+                    <h3 class="text-center">ASP<sup>®</sup> Subscription</h3>
+                    <p>Donec sollicitudin molestie malesuada. Donec sollicitudin molestie malesuada. Donec rutrum congue leo eget malesuada.</p>
+                    <p>Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vivamus suscipit tortor 
+                    eget felis porttitor volutpat.</p>
+                    
+                    <div class="col-md-offset-1 col-lg-offset-2 col-md-10 col-lg-8">
+                        <a href="#" class="btn btn-default">Subscribe</a> &nbsp;&nbsp;&nbsp;3 Month Subscription<br />
+                        <a href="#" class="btn btn-default">Subscribe</a> &nbsp;&nbsp;&nbsp;6 Month Subscription<br />
+                        <a href="#" class="btn btn-default">Subscribe</a> &nbsp;&nbsp;&nbsp;1 Year Subscription
                     </div>
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
+                </div>
+                <div class="col-md-5">
+                    <h3 class="text-center">ASP<sup>®</sup> Lifetime Membership</h3>
+                    <p>Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, 
+                    auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat.</p>
+                    <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ac diam 
+                    sit amet quam vehicula elementum sed sit amet dui.</p>
+                    <p>Donec sollicitudin molestie malesuada. Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                    
+                    <div class="text-center">
+                        <a href="lifetime.php" class="btn btn-default"><i class="fa fa-user pr-10"></i> Lifetime Subscription</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 		<!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
 		<!-- ================ -->
