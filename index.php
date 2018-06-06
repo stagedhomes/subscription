@@ -77,12 +77,10 @@
         <!-- Angular App Container -->
         <div class="container space-top-40 space-bottom-40">
             <div class="row">
-                <div class="col-md-12">
                     <!-- IFrame: Angular App -->
                     <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="./dist/subscribe/index.html"></iframe>
+                      <iframe class="embed-responsive-item" src="./dist/subscribe/index.html" height="300"></iframe>
                     </div>
-                </div><!-- .col -->
             </div><!-- .row -->
         </div><!-- .container -->
 
