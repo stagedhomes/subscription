@@ -19,3 +19,18 @@ body {
 .padding-top-20px { padding-top: 20px; }
 .padding-left-10px { padding-left: 10px; }
 .padding-right-10px { padding-right: 10px; }
+
+/* ============================================================
+  ../index.php
+============================================================ */
+@media only screen and (max-width : 991px) {
+  #subscription .fit-iframe {
+    padding-bottom: 2050px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  #subscription .fit-iframe {
+    padding-bottom: 905px;
+  }
+}

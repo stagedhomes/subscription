@@ -30,6 +30,9 @@
 
 	<!-- Corresponding Styles to Homepage -->
 	<link href="../assets/the-project/css/pages.css" rel="stylesheet">
+
+	<!-- styles.css for Angular -->
+	<link href="src/styles.css" rel="stylesheet">
 </head>
 
 <body id="subscription" class="boxed pattern-1">
@@ -78,8 +81,8 @@
         <div class="container space-top-40 space-bottom-40">
             <div class="row">
                     <!-- IFrame: Angular App -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe class="embed-responsive-item" src="./dist/subscribe/index.html" height="300"></iframe>
+                    <div class="embed-responsive embed-responsive-16by9 fit-iframe">
+                      <iframe class="embed-responsive-item" src="./dist/subscribe/index.html"></iframe>
                     </div>
             </div><!-- .row -->
         </div><!-- .container -->
