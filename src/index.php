@@ -38,7 +38,7 @@
 
 	<!-- Corresponding Styles to Homepage -->
     <link href="/assets/the-project/css/pages.css" rel="stylesheet">
-<link rel="stylesheet" href="styles.a37477b49befb240819b.css"></head>
+</head>
 
 <body id="subscription" class="boxed pattern-1">
 	<!-- Google Analytics -->
@@ -106,5 +106,5 @@
 	<script>
 		document.write('<script src="http://' + (location.host || '${1:localhost}').split(':')[0] + ':${2:35729}/livereload.js?snipver=1"></' + 'script>')
 	</script>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.b4daf421c94934f530d4.js"></script><script type="text/javascript" src="main.7df2a96a8f16085d2e5c.js"></script></body>
+</body>
 </html>
