@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy-pyra": "ng build --prod && rm -rf docs/ && mv dist/subscribe/ docs && rm -rf dist/"
+    "deploy": "ng build stagedhomes --prod && rm -rf docs && rm index.php && mv dist/stagedhomes/index.php index.php && mv dist/stagedhomes docs"
   },
   "private": true,
   "dependencies": {
